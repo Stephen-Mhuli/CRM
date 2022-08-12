@@ -1,0 +1,27 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "CRM Backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "Stephen Mhuli",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/node": "^7.18.10",
+    "@babel/plugin-transform-runtime": "^7.18.10",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/runtime": "^7.18.9"
+  }
+}
